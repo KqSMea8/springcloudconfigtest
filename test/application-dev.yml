@@ -1,0 +1,7 @@
+config: 
+  your-name: let's go
+
+id: 888888
+
+server: 
+  port: 8101
