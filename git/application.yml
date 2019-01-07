@@ -1,0 +1,16 @@
+#mynatis配置
+mybatis:
+  #type-aliases-package: com.baidu.fsg.auto.bean.po
+  #mapper加载路径
+  mapper-locations: classpath:mapper/**/*Mapper.xml
+  #myatbis配置文件
+  config-location: classpath:mybatis-conf.xml
+
+#日志配置
+logging:
+  config: classpath:log4j2.xml
+
+spring:
+  application:
+    name: fdi-auto-test
+  profiles.active: test
